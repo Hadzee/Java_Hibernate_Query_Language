@@ -34,9 +34,6 @@ public class HibernateUtil {
         sessionFactory.close();
     }
 
-//    "select e from Employees e where e.income between " + num1 " and " + num2;
-
-    //    "insert into Employees values(" + id + ", '" +  name + "'" + ...")";
 
     public static void insertEmployee (Employees employees) throws SQLException {
         Session session = HibernateUtil.createSessionFactory().openSession();
