@@ -30,9 +30,6 @@
 
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-<!--        <mapping class="Book"/>-->
-<!--        <mapping class="Isbn"/>-->
-
         <mapping class="Employees"/>
 
     </session-factory>
